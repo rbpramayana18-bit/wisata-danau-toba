@@ -141,4 +141,54 @@ footer {
 }
 
 }
+.destinasi-item {
+  background: #f9fbfd;
+  border-radius: 12px;
+  margin-top: 25px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.destinasi-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.destinasi-item h3 {
+  color: #1b4f72;
+  margin-bottom: 8px;
+}
+
+.destinasi-item p {
+  text-align: justify;
+}
+.destinasi-item {
+  background: #f9fbfd;
+  border-radius: 12px;
+  margin-top: 25px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.destinasi-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.destinasi-item h3 {
+  color: #1b4f72;
+  margin-bottom: 8px;
+}
+
+.destinasi-item p {
+  text-align: justify;
+}
+
+
 
