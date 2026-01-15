@@ -123,4 +123,22 @@ footer {
   header h1 {
     font-size: 28px;
   }
+  .destinasi-item {
+  border-left: 5px solid #2e86c1;
+  padding: 15px 20px;
+  margin-top: 20px;
+  background: #f9fbfd;
+  border-radius: 8px;
 }
+
+.destinasi-item h3 {
+  color: #1b4f72;
+  margin-bottom: 8px;
+}
+
+.destinasi-item p {
+  text-align: justify;
+}
+
+}
+
