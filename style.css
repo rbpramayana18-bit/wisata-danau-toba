@@ -1,40 +1,79 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f6f8;
-  color: #333;
+  background: #f2f2f2;
+  line-height: 1.7;
 }
 
+/* HEADER */
 header {
-  background-color: #0d6efd;
+  background: #2c3e50;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 30px;
 }
 
+/* SECTION UMUM */
 section {
-  padding: 20px;
-  margin: 20px;
-  background-color: white;
-  border-radius: 8px;
+  position: relative;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
 }
 
-h2 {
-  margin-top: 0;
+/* LAPISAN PUTIH BIAR TEKS KEBACA */
+section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
 }
 
-#gallery .images {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
+section > * {
+  position: relative;
 }
 
-#gallery img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+/* ========================= */
+/* GAMBAR OTOMATIS (ONLINE) */
+/* ========================= */
+
+#pendahuluan {
+  background-image: url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+}
+
+#gambaran-umum {
+  background-image: url("https://images.unsplash.com/photo-1603344202838-3c7e4e5b2b7a");
+}
+
+#letak {
+  background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+}
+
+#pembagian {
+  background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da");
+}
+
+#fokus {
+  background-image: url("https://images.unsplash.com/photo-1491553895911-0055eca6402d");
+}
+
+#potensi {
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+}
+
+#penutup {
+  background-image: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e");
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
 }
